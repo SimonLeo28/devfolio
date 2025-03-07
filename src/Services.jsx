@@ -36,8 +36,8 @@ const services = [
 
 const Services = () => {
   return (
-    <div id="services" className="py-12 px-4 sm:px-6 lg:px-12 bg-gray-100 dark:bg-black">
-      <h1 className="text-4xl sm:text-5xl font-bold text-center text-gray-900 dark:text-white mb-12">
+    <div id="services" className="py-12 px-4 sm:px-6 lg:px-12 bg-gray-100 dark:bg-white ">
+      <h1 className="text-4xl sm:text-5xl font-bold text-center text-gray-900 dark:text-black mb-12">
         Services
       </h1>
 

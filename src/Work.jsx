@@ -3,16 +3,23 @@ import { motion } from "framer-motion";
 
 const data =[
     {
-        title: "Professor",
-        description: "New Horizon College Of Engineering(Data Science)",
-        link: "https://www.researchgate.net/profile/Kumar-Bid"
+      title: "Professor HOD",
+      description: "Amruta Institute Of Engineering And Management Sciences",
+      link: "https://aiems.in/"
     },
     {
-      title: "Professor HOD",
-      description: "Amruta Institute Of Engineering And Management Sciences(Operating Systems)",
-      link: "https://aiems.in/"
-  }
+      title: "Developer",
+      description: "Name yet to be updated",
+      link: "link yet to be updated"
+    },
+    {
+      title: "Activist",
+      description: "Name yet to be updated",
+      link: "link yet to be updated"
+    }
 ]
+
+
 
 const Work = () => {
   return (

@@ -1,8 +1,10 @@
 import React from "react";
+import hero from './images/hero.webp'
 
 const Hero = () => {
   return (
-    <div className="flex h-screen w-screen gap-x-3.5 justify-items-start bg-black px-10 text-white">
+    <div className="flex h-screen w-screen gap-x-3.5 justify-items-start bg-black px-10 text-white"
+    style={{ backgroundImage: `url(${hero})` }}>
       <div id="hero" className="relative flex flex-col items-start justify-center">
         <h1 className="text-5xl lg:text-7xl font-bold">Dr. Kumar B. I. D.</h1>
         <h2 className="text-3xl lg:text-5xl font-semibold mt-4">D E V E L O P E R</h2>
@@ -17,11 +19,11 @@ const Hero = () => {
           Learn More
         </a>
       </div>
-      <img
+      {/* <img
         src="https://www.shutterstock.com/image-photo/asian-business-man-confident-elegant-260nw-2103131423.jpg"
         alt="Hero Page Image"
         className="h-72 w-72 mt-52 ml-auto rounded-full mr-10"
-      />
+      /> */}
     </div>
   );
 };

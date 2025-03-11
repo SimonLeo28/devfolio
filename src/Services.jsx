@@ -13,7 +13,7 @@ const services = [
     icon: <FaResearchgate className="text-green-600 dark:text-green-400 text-4xl" />,
   },
   {
-    title: "Student Mentorship",
+    title: "Books and Publications",
     description: "Providing guidance and career advice to students for academic and professional growth.",
     icon: <FaUserTie className="text-yellow-600 dark:text-yellow-400 text-4xl" />,
   },

@@ -1,13 +1,36 @@
-import React from "react";
-import hero from './images/hero.webp'
+import { useState, useEffect } from "react";
+import hero from './images/hero.webp';
+import { motion } from "framer-motion";
+
+const wordsArray = ["Professor", "Researcher", "Developer"];
 
 const Hero = () => {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prevIndex) => (prevIndex + 1) % wordsArray.length);
+    }, 1000); // Change every 2 seconds
+    return () => clearInterval(interval);
+  }, []);
+
   return (
-    <div className="flex h-screen w-screen gap-x-3.5 justify-items-start bg-black px-10 text-white"
-    style={{ backgroundImage: `url(${hero})` }}>
+    <div 
+      className="flex h-screen w-screen gap-x-3.5 justify-items-start bg-cover bg-black px-10 text-white"
+      style={{ backgroundImage: `url(${hero})` }}
+    >
       <div id="hero" className="relative flex flex-col items-start justify-center">
         <h1 className="text-5xl lg:text-7xl font-bold">Dr. Kumar B. I. D.</h1>
-        <h2 className="text-3xl lg:text-5xl font-semibold mt-4">D E V E L O P E R</h2>
+        <motion.span
+          key={index}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          transition={{ duration: 0.5 }}
+          className="text-4xl lg:text-5xl p-5 font-semibold mt-2"
+        >
+          {wordsArray[index]}
+        </motion.span>
         <p className="text-lg lg:text-xl font-light max-w-lg mt-6">
           Building innovative solutions, one line of code at a time. Passionate
           about crafting seamless user experiences and impactful designs.
@@ -19,11 +42,6 @@ const Hero = () => {
           Learn More
         </a>
       </div>
-      {/* <img
-        src="https://www.shutterstock.com/image-photo/asian-business-man-confident-elegant-260nw-2103131423.jpg"
-        alt="Hero Page Image"
-        className="h-72 w-72 mt-52 ml-auto rounded-full mr-10"
-      /> */}
     </div>
   );
 };

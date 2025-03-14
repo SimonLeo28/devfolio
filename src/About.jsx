@@ -1,4 +1,5 @@
 import React from 'react';
+import abt_img from './images/about.jpg'
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
       <div className="flex flex-col items-center lg:items-start w-full lg:w-1/3 space-y-5">
         <div className="h-40 w-40 rounded-full bg-gray-200 overflow-hidden shadow-lg">
           <img
-            src="https://kumarbid.in/assets/img/testimonial-2.jpg"
+            src={abt_img}
             alt="Your Photo"
             className="h-full w-full object-cover"
           />

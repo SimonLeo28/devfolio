@@ -74,7 +74,7 @@ const Navbar = () => {
             onClick={() => alert("Implement mobile menu toggle here")}
             className="text-white font-medium"
           >
-            D E V F O L I O
+            
           </button>
         </div>
       </div>

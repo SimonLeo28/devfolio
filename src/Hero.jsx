@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import hero from './images/hero.webp';
+import hero from './images/Hero_Section_Pic.jpg';
 import { motion } from "framer-motion";
 
 const wordsArray = ["Professor", "Researcher", "Developer"];

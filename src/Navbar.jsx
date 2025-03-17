@@ -39,7 +39,7 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-screen-xl mx-auto flex items-center justify-between p-4">
-        <div className="text-white text-xl font-bold">D E V P R O F I L E</div>
+        <div className="text-white text-xl font-bold">Dev Profile</div>
 
         <ul className="hidden md:flex items-center space-x-8 text-white font-medium">
           <li>

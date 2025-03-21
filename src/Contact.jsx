@@ -196,7 +196,7 @@ const Contact = () => {
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
             <FaTwitter className="text-purple-400 hover:text-purple-500 text-2xl transition-colors" />
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/kumarbid" target="_blank" rel="noopener noreferrer">
             <FaGithub className="text-purple-400 hover:text-purple-500 text-2xl transition-colors" />
           </a>
           <a href="https://www.facebook.com/kumar.ichangi" target="_blank" rel="noopener noreferrer">

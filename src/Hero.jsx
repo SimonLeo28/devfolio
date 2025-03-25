@@ -27,7 +27,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 2.0 }}
           className="text-4xl lg:text-5xl p-5 font-semibold mt-2"
         >
           {wordsArray[index]}

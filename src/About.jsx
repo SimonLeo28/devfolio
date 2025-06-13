@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col lg:flex-row items-center lg:items-start bg-white text-black w-full px-10 py-20 space-y-10 lg:space-y-0 lg:space-x-10"
+      className="flex flex-col lg:flex-row items-center lg:items-start bg-white h-screen text-black w-full px-10 py-20 space-y-10 lg:space-y-0 lg:space-x-10"
     >
       {/* Left Side */}
       <div className="flex flex-col items-center lg:items-start w-full lg:w-1/3 space-y-5">
@@ -17,8 +17,10 @@ const About = () => {
           />
         </div>
         <p className="text-center lg:text-left text-lg font-light">
-          Hi, I’m Dr. Kumar B I D, a passionate developer with a love for crafting
-          innovative digital experiences.
+          Hi, I’m <span className='font-semibold'>Dr. Kumar B I D<br />
+          Professor | Researcher | Developer</span><br />
+          Bridging code and cutting-edge research to build transformative digital experiences that solve
+           real-world challenges.
         </p>
       </div>
 
@@ -26,13 +28,11 @@ const About = () => {
       <div className="flex flex-col w-full lg:w-2/3 space-y-5">
         <h2 className="text-4xl font-bold border-b-4 border-black w-max">About Me</h2>
         <p className="text-lg font-light leading-relaxed">
-          I am a highly motivated and skilled developer with expertise in building
-          responsive, user-centric web applications. My journey in development
-          combines creativity and technical precision to bring ideas to life. With a
-          strong foundation in full-stack technologies and a knack for problem-solving,
-          I strive to create impactful solutions that resonate with users. When I’m not
-          coding, you can find me exploring new technologies, mentoring aspiring
-          developers, or working on side projects that fuel my passion for learning.
+          As an academic leader and technical practitioner, I merge rigorous research with practical development to
+          engineer transformative solutions. My work advances knowledge frontiers while directly solving real-world
+          challenges through code, algorithms, and systems design. Committed to open science and mentorship, I
+          cultivate the next generation of innovators through hands-on guidance and interdisciplinary collaboration
+          – turning theoretical insights into deployable technologies that create measurable impact.
         </p>
       </div>
     </div>

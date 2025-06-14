@@ -21,7 +21,7 @@ const Hero = () => {
       style={{ backgroundImage: `url(${hero})` }}
     >
       <div id="hero" className="relative flex flex-col items-center justify-center">
-        <h1 className="text-5xl lg:text-7xl font-bold p-0 m-0">Dr. Kumar B. I. D. 
+        <h1 className="text-3xl lg:text-7xl font-bold p-0 m-0">Dr. Kumar B. I. D. 
           <span className="text-purple-300 text-xl p-0"> BE(CSE), M Tech(CSE), Executive MBA(BA & EMS), PhD(CSE)</span>
         </h1>
         {/* <motion.span
@@ -34,7 +34,7 @@ const Hero = () => {
         >
           {wordsArray[index]}
         </motion.span> */}
-        <p className="text-1xl lg:text-4xl p-5 font-semibold mt-2">PROFESSOR | RESEARCHER | DEVELOPER</p>
+        <p className="text-[12px] lg:text-4xl p-5 font-semibold mt-2">PROFESSOR | RESEARCHER | DEVELOPER</p>
         <p className="text-lg lg:text-xl font-light max-w-4xl mt-6">
           Bridging academia and technology through innovative research and hands-on development, 
           I create impactful solutions while advancing knowledge and mentoring future innovators.

@@ -39,12 +39,12 @@ const Hero = () => {
           Bridging academia and technology through innovative research and hands-on development, 
           I create impactful solutions while advancing knowledge and mentoring future innovators.
         </p>
-        <a
+        {/* <a
           href="#about"
           className="mt-6 px-6 py-3 bg-purple-500 text-white font-medium text-lg rounded-lg shadow-lg hover:bg-purple-600 transition-transform transform hover:scale-105"
         >
           Learn More
-        </a>
+        </a> */}
       </div>
     </div>
   );

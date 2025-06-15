@@ -60,14 +60,14 @@ const Contact = () => {
               <FaEnvelope className="text-purple-400 mt-1 flex-shrink-0" />
               <div>
                 <p className="font-medium">Email</p>
-                <p className="text-gray-300">kumar@example.com</p>
+                <p className="text-gray-300">kumarbid@gmail.com</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <FaPhone className="text-purple-400 mt-1 flex-shrink-0" />
               <div>
                 <p className="font-medium">Phone</p>
-                <p className="text-gray-300">+91 98765 43210</p>
+                <p className="text-gray-300">+91 7892438079</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
